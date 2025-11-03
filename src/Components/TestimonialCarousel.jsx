@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { TESTIMONIALS, TESTIMONIAL_DECOR } from '../constants';
-
+// import { TESTIMONIALS, TESTIMONIAL_DECOR } from '../constants';
+import {TESTIMONIALS, TESTIMONIAL_DECOR} from '../Constants';
 const TestimonialCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const { loadingImg, leftImage } = TESTIMONIAL_DECOR;
