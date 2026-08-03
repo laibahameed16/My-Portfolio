@@ -93,10 +93,10 @@ export const GALLERY_DATA = {
 // -------------------------
 // src/Constants.js
 import { FaPaintBrush, FaCode, FaSearch, FaLaptopCode } from "react-icons/fa";
-import service1Img from "./assets/service1img.png";
-import service2Img from "./assets/service2img.png";
-import service3Img from "./assets/service3img.png";
-import service4Img from "./assets/service4img.png";
+import service1Img from "./assets/service1Img.png";
+import service2Img from "./assets/service2Img.png";
+import service3Img from "./assets/service3Img.png";
+import service4Img from "./assets/service4Img.png";
 
 export const services = [
   {
