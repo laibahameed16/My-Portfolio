@@ -2,7 +2,8 @@ import React from "react";
 import { FaFacebookF, FaLinkedinIn, FaDribbble } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 import { motion } from "framer-motion";
-import { HERO_DATA, ANIMATION } from "../Constants";
+import { HERO_DATA } from "../Constants";
+import jennaImg from "../assets/jenna.png";
 
 // Animation variants for fade-up effect
 const fadeUp = {
@@ -99,7 +100,7 @@ const Hero = () => {
       {/* Right Side Image */}
       <div className="relative mt-10 md:mt-0">
         <img
-          src={HERO_DATA.image}
+          src={jennaImg}
           alt="Hero"
           className="w-[350px] md:w-[450px] object-cover rounded-lg z-10 relative"
         />
